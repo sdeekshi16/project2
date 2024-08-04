@@ -1,0 +1,10 @@
+<p>format-output works!</p>
+<h2>Format Output Component</h2>
+
+<input type="text" [(ngModel)]="rawData" placeholder="Enter any data">
+<button (click)="formatInput(rawData)">Format</button>
+
+<p>Raw Data: {{ rawData }}</p>
+<p>Formatted Data: {{ formattedData }}</p>
+
+<a routerLink="/">Back to First Component</a>
